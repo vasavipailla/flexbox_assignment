@@ -1,12 +1,14 @@
 .squares {
     position: relative;
     width: 1152px;
-    height: 700px;
+    height: 600px;
     background: #370617;
     padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 20px;
+    justify-content: center;
 }
 
 
@@ -16,20 +18,9 @@
     height: 160px;
     margin: 20px;
     background-color: gold;
-    align-items: stretch;
-    /* padding: 20px; */
+    align-items: center;
     
-}
-
-.container_two {
-    justify-content: center;
-    position: absolute;
-    width: 468px;
-    height: 160px;
-    left: 586px;
-    top: 90px;
-    background-color: gold;
-}
+}   
 
 .first {
     align-items:flex-end;
@@ -126,9 +117,9 @@
 }
 
 .sixth {
-    display: flex;
+    display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 
 }
 
@@ -143,6 +134,45 @@
 }
 
 .seventeen {
-    width: 156px;
+    flex-grow: 1;
+}
+
+
+
+.circles {
+    width: 1152px;
+    height: 700px;
+    background: #FAA307;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    display: flex;
+    width: 273px;
+    height: 220px;
+    background: brown;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.c2 {
+    display: ;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background: #748CAB;
+    border-radius: 30px;
 }
 
