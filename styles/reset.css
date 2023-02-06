@@ -9,6 +9,7 @@
     align-items: center;
     margin: 20px;
     justify-content: center;
+    
 }
 
 
@@ -149,6 +150,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    align-content: center;
+
     
 }
 
@@ -162,17 +165,37 @@
     flex-wrap: wrap;
 }
 
-.c2 {
-    display: ;
-    justify-content: flex-end;
-    flex-wrap: wrap-reverse;
+.c1 {
+    align-content:flex-start;
 }
 
+.c2 {
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    
+}
 .circle {
     width: 50px;
     height: 50px;
     margin: 20px;
     background: #748CAB;
     border-radius: 30px;
+}
+
+.c3 {
+    justify-content:space-between;
+}
+
+.c4 {
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.c5 {
+    justify-content: center;
+    align-content: center;
+        
 }
 
